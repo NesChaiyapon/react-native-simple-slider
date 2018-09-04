@@ -56,4 +56,4 @@ Contributions are welcome. Should run `npm run test` before push.
 ## License
 
 MIT License
-Copyright (c) 2018-present, NesChaiyapon.
+Copyright (c) 2018 Chaiyapon
