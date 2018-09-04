@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Slider component should render correctly 1`] = `
+<Component
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Component
+    style={
+      Array [
+        Object {
+          "borderRadius": 3,
+        },
+        Object {
+          "backgroundColor": "#BDBDBD",
+          "borderRadius": 3,
+          "height": 6,
+          "width": 325,
+        },
+      ]
+    }
+  />
+  <AnimatedComponent
+    style={
+      Array [
+        Object {
+          "borderRadius": 3,
+          "position": "absolute",
+          "width": 0,
+          "zIndex": 1,
+        },
+        Object {
+          "backgroundColor": "#3F51B5",
+          "borderRadius": 3,
+          "height": 6,
+          "width": 0,
+        },
+      ]
+    }
+  />
+  <AnimatedComponent
+    hitSlop={
+      Object {
+        "bottom": 20,
+        "left": 20,
+        "right": 20,
+        "top": 20,
+      }
+    }
+    onMoveShouldSetResponder={[Function]}
+    onMoveShouldSetResponderCapture={[Function]}
+    onResponderEnd={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderReject={[Function]}
+    onResponderRelease={[Function]}
+    onResponderStart={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    onStartShouldSetResponderCapture={[Function]}
+    style={
+      Array [
+        Object {
+          "marginLeft": 0,
+          "position": "absolute",
+          "zIndex": 3,
+        },
+        Object {
+          "backgroundColor": "#3F51B5",
+          "borderRadius": 12,
+          "height": 24,
+          "left": -12,
+          "transform": Array [
+            Object {
+              "translateX": 0,
+            },
+          ],
+          "width": 24,
+        },
+      ]
+    }
+  />
+  <AnimatedComponent
+    style={
+      Array [
+        Object {
+          "backgroundColor": "rgba(51, 51, 51, 0.2)",
+          "position": "absolute",
+          "zIndex": 2,
+        },
+        Object {
+          "borderRadius": 12,
+          "height": 24,
+          "left": -12,
+          "transform": Array [
+            Object {
+              "translateX": 0,
+            },
+            Object {
+              "scale": 0,
+            },
+          ],
+          "width": 24,
+        },
+      ]
+    }
+  />
+</Component>
+`;
