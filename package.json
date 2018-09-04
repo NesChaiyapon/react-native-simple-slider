@@ -1,6 +1,6 @@
 {
   "name": "react-native-simple-slider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a simple javascript slider component for react native.",
   "main": "src/index.js",
   "author": "Nes Chaiyapon <chaiyapon.a@hotmail.com> (https://github.com/NesChaiyapon)",
