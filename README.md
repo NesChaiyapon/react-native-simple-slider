@@ -4,7 +4,7 @@ This is a simple javascript slider component for react native.
 
 This package is compatible both **Android** and **iOS**.
 
-![Slider component preview image](https://raw.githubusercontent.com/NesChaiyapon/react-native-simple-slider/master/images/slider-preview.png | width=375)
+<img src="https://raw.githubusercontent.com/NesChaiyapon/react-native-simple-slider/master/images/slider-preview.png" alt="Slider component preview image" width="375" />
 
 ## Installation
 
