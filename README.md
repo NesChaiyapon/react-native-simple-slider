@@ -25,6 +25,18 @@ state = { value: 0 }
   disabledHoverEffect={false}
 />
 ```
+### How to use in ScrollView
+
+```jsx
+state = { isScrollEnable: true}
+
+<ScrollView scrollEnabled={this.state.isScrollEnable}>
+ <Slider
+    onSlidingStart={() => this.setState({ isScrollEnable: false })}
+    onSlidingComplete={() => this.setState({ isScrollEnable: true })}
+  />
+</ScrollView>
+```
 
 ## Props
 
