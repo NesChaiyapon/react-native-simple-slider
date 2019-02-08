@@ -392,7 +392,7 @@ class Slider extends Component {
             width: thumbButtonSize,
             height: thumbButtonSize
           }}
-          source={{ uri: thumbImage }}
+          source={typeof(thumbImage) === 'string'? { uri: thumbImage } : thumbImage}
         />
       </Animated.View>
     )
